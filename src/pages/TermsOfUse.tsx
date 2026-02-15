@@ -26,7 +26,7 @@ export default function TermsOfUse() {
             <p>Our website may include links to external websites. We do not have control over their content and are not responsible for them.</p>
 
             <h2 className="font-heading text-xl font-semibold">6. Client & Project References</h2>
-            <p>AJIT ELECTRICALS has successfully executed projects for a wide range of reputed organizations across various sectors. The client names, logos, and project references displayed on this website represent projects where AJIT ELECTRICALS has provided services, expertise, or execution support.
+            <p>Ajit Electricals has successfully executed projects for a wide range of reputed organizations across various sectors. The client names, logos, and project references displayed on this website represent projects where Ajit Electricals has provided services, expertise, or execution support.
 
               Certain projects may have been undertaken directly under contract with the respective client, while others may have been executed in collaboration with principal contractors, subcontractors, channel partners, or project management agencies, depending on the nature and structure of the assignment.
 
