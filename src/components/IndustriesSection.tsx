@@ -51,7 +51,7 @@ export default function IndustriesSection() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 transition-colors group-hover:bg-accent">
                 <industry.icon className="h-6 w-6 text-primary transition-colors group-hover:text-accent-foreground" />
               </div>
-              <span className="text-center text-sm font-medium text-foreground">
+              <span className="text-center text-sm font-medium text-foreground break-words leading-tight">
                 {industry.name}
               </span>
             </Link>
