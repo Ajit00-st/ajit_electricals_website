@@ -14,7 +14,6 @@ import {
   TrainTrack,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const industries = [
   { icon: Factory, name: "Manufacturing" },
   { icon: Droplets, name: "Water/STP/WTP" },
@@ -29,10 +28,9 @@ const industries = [
   { icon: Building2, name: "Infrastructure" },
   { icon: TrainTrack, name: "Railway" },
 ];
-
 export default function IndustriesSection() {
   return (
-    <section className="section-padding bg-card">
+    <section className="section-padding bg-background">
       <div className="container-custom">
         <div className="mb-12 text-center">
           <h2 className="section-title">Industries We Serve</h2>
@@ -40,31 +38,23 @@ export default function IndustriesSection() {
             Providing specialized electrical and automation solutions across diverse industry verticals
           </p>
         </div>
-
-        <div className="grid grid-cols-3 gap-4 sm:grid-cols-4 md:grid-cols-6 lg:gap-6">
+        <div className="grid grid-cols-3 gap-4 sm:grid-cols-4 md:grid-cols-6">
           {industries.map((industry, index) => (
-            <Link
+            <div
               key={index}
-              to="/industries"
-              className="group flex flex-col items-center gap-3 rounded-lg border border-border bg-card p-4 transition-all hover:border-accent hover:shadow-lg"
+              className="flex flex-col items-center justify-center gap-2 rounded-lg border border-border bg-card p-4 transition-shadow hover:shadow-md"
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 transition-colors group-hover:bg-accent">
-                <industry.icon className="h-6 w-6 text-primary transition-colors group-hover:text-accent-foreground" />
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-muted">
+                <industry.icon className="h-6 w-6 text-accent" />
               </div>
-              <span className="text-center text-sm font-medium text-foreground break-words leading-tight">
+              <span className="w-full text-center text-[11px] font-medium leading-tight text-foreground sm:text-xs break-words">
                 {industry.name}
               </span>
-            </Link>
+            </div>
           ))}
         </div>
-
         <div className="mt-10 text-center">
-          <Button
-            asChild
-            variant="outline"
-            size="lg"
-            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-          >
+          <Button asChild variant="outline" size="lg">
             <Link to="/industries">Explore All Industries</Link>
           </Button>
         </div>
