@@ -150,7 +150,7 @@ const productCategories: ProductCategory[] = [
     description: "Application-specific control solutions for specialized industrial requirements",
     products: [
       {
-        id: "control-desks",
+        id: "mimic-panels",
         name: "Control Desks",
         description: "Ergonomic operator control desks designed for control rooms. Integrates HMI, SCADA, control switches, and monitoring equipment in a comfortable workspace.",
         image: mimicPanel,
