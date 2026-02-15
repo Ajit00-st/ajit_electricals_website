@@ -266,13 +266,13 @@ export default function Products() {
                   <h3 className="mb-3 font-heading text-sm font-semibold uppercase tracking-wider text-primary">
                     Key Features
                   </h3>
-                  <ul className="grid grid-cols-2 gap-3">
+                  <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                     {selectedProduct.features.map((feature, idx) => (
                       <li
                         key={idx}
-                        className="flex items-center gap-2 text-sm text-muted-foreground"
+                        className="flex items-start gap-2 text-sm text-muted-foreground break-words min-w-0"
                       >
-                        <ArrowRight className="h-4 w-4 text-accent flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-accent flex-shrink-0 mt-0.5" />
                         {feature}
                       </li>
                     ))}
