@@ -25,8 +25,14 @@ export default function TermsOfUse() {
             <h2 className="font-heading text-xl font-semibold">5. External Links</h2>
             <p>Our website may include links to external websites. We do not have control over their content and are not responsible for them.</p>
 
-            <h2 className="font-heading text-xl font-semibold">6. Governing Law</h2>
-            <p>These Terms shall be governed by and interpreted in accordance with the laws of India.</p>
+            <h2 className="font-heading text-xl font-semibold">6. Client & Project References</h2>
+            <p>AJIT ELECTRICALS has successfully executed projects for a wide range of reputed organizations across various sectors. The client names, logos, and project references displayed on this website represent projects where AJIT ELECTRICALS has provided services, expertise, or execution support.
+
+              Certain projects may have been undertaken directly under contract with the respective client, while others may have been executed in collaboration with principal contractors, subcontractors, channel partners, or project management agencies, depending on the nature and structure of the assignment.
+
+              The inclusion of any client name or logo reflects our involvement and contribution to the respective project and does not misrepresent our role in any manner.
+
+              If any organization requires clarification regarding project association or logo usage, they are welcome to contact us for prompt assistance.</p>
 
             <h2 className="font-heading text-xl font-semibold">7. Changes to Terms</h2>
             <p>We reserve the right to modify these Terms of Use at any time without prior notice.</p>
@@ -36,3 +42,5 @@ export default function TermsOfUse() {
     </Layout>
   );
 }
+
+
