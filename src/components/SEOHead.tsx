@@ -9,7 +9,7 @@ interface SEOHeadProps {
 }
 
 export default function SEOHead({ title, description, keywords, canonical, jsonLd }: SEOHeadProps) {
-  const baseUrl = "https://ajitelectricalsindia.in";
+  const baseUrl = "https://www.ajitelectricalsindia.in";
   const fullCanonical = canonical ? `${baseUrl}${canonical}` : baseUrl;
 
   return (

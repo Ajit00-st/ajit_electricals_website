@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://ajitelectricalsindia.in/sitemap.xml
+Sitemap: https://www.ajitelectricalsindia.in/sitemap.xml

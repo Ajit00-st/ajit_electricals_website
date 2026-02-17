@@ -13,8 +13,8 @@ export default function Index() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Ajit Electricals",
-    "url": "https://ajitelectricalsindia.in",
-    "logo": "https://ajitelectricalsindia.in/logo.png",
+    "url": "https://www.ajitelectricalsindia.in",
+    "logo": "https://www.ajitelectricalsindia.in/logo.png",
     "description": "ISO 9001:2015 certified electrical control panel manufacturer in Dombivli, Thane, Mumbai, Maharashtra, India.",
     "telephone": "+919967938370",
     "email": " sales@ajitelectricalsindia.in",
@@ -44,7 +44,7 @@ export default function Index() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Ajit Electricals",
-    "image": "https://ajitelectricalsindia.in/logo.png",
+    "image": "https://www.ajitelectricalsindia.in/logo.png",
     "telephone": "+919967938370",
     "email": " sales@ajitelectricalsindia.in",
     "address": {
@@ -73,10 +73,10 @@ export default function Index() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Ajit Electricals",
-    "url": "https://ajitelectricalsindia.in",
+    "url": "https://www.ajitelectricalsindia.in",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://ajitelectricalsindia.in/products?q={search_term_string}",
+      "target": "https://www.ajitelectricalsindia.in/products?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };
