@@ -29,13 +29,13 @@ export default function Index() {
       "@type": "OfferCatalog",
       "name": "Electrical Control Panels",
       "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "LT Panel" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "MCC Panel" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "PCC Panel" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "APFC Panel" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "VFD Panel" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "PLC Automation Panel" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "SCADA System" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "LT Panel" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "MCC Panel" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "PCC Panel" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "APFC Panel" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "VFD Panel" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "PLC Automation Panel" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SCADA System" } },
       ]
     }
   };
