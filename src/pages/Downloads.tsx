@@ -11,21 +11,21 @@ const downloads = [
     title: "Company Profile / Brochure",
     description: "Complete overview of Ajit Electricals, our capabilities, manufacturing facilities, and product range",
     fileName: "Ajit_Electricals_Company_Profile.pdf",
-    size: "1.1 MB",
+    size: "1.0 MB",
   },
   {
     icon: Shield,
     title: "ISO 9001:2015 Certificate",
     description: "Our quality management system certification demonstrating our commitment to quality standards",
     fileName: "ISO_9001_Certificate.pdf",
-    size: "1.0 MB",
+    size: "0.7 MB",
   },
   {
     icon: Shield,
     title: "Other Certificates",
     description: "Additional certifications including test reports, compliance certificates, and quality approvals",
     fileName: "Other_Certificates.pdf",
-    size: "1.2 MB",
+    size: "0.4 MB",
   },
 ];
 
