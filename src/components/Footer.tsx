@@ -145,7 +145,7 @@ export default function Footer() {
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
+              <a href="https://www.youtube.com/@AjitElectricals-g2w" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
                 <Youtube size={20} />
               </a>
               <a href="https://www.instagram.com/ajitelectricals_official/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
